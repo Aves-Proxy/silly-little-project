@@ -1,0 +1,119 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/FS2UwCPWAAA3MkV.png);
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.notice {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #CAFFFA;
+}
+
+.svg-parallax {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #0D0D0D;
+}
+
+main {
+  z-index: 2;
+}
+
+h1 {
+  margin-top: 10vh;
+  font-size: 70px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  color: #37A69B;
+}
+
+h2 {
+  margin-top: 5vh;
+  font-size: 44px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  color: #78BFB2;
+}
+
+h3 {
+  padding-top: 2rem;
+  font-size: 48px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  color: #37A69B;
+}
+
+.quote {
+  padding-top: 4rem;
+  font-size: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-variant: small-caps;
+  color: #78BFB2;
+}
+
+.body {
+  padding: 4rem 2rem;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  color: #CAFFFA;
+}
+
+.reg-img {
+  width: 100%;
+}
+
+.parallax-img {
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: auto;
+}
+
+#img2 {
+  background-image: url(../images/trench-healer.png);
+}
+
+#img3 {
+  background-image: url(../images/gnb.png);
+}
+
+#img4 {
+  background-image: url(../images/sam-gear.png);
+}
+
+#img5 {
+  background-image: url(../images/gnb-edgy.png)
+}
+
+.container-content {
+  max-width: 50rem;
+  padding: 2rem;
+  background-color: #0E261F;
+}
